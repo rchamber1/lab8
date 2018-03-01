@@ -3,7 +3,7 @@ function initCamera() {
     capture($('#camera-video'),
           $('#camera-canvas'),
           $('#camera-button'));
-    disableCamera();
+    //disableCamera();
 }
 
 function capture(video, canvas, snapshotButton) {
